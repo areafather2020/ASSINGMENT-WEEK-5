@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.box h3 {
+  text-align: center;
+  padding: 10px;
+}
+
+.box {
+  width: 200px;
+  border: 1px solid darkgray;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.15);
+}
+
+.box__content {
+  padding: 10px 10%;
+  margin: 0 auto;
+}
+
+tr {
+  line-height: 25px;
+  font-size: 17px;
+}
+
+th {
+  text-align: right;
+}
+
+td {
+  text-align: left;
+  padding-left: 15px;
+}
